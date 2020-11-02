@@ -1,0 +1,39 @@
+https://github.com/jhu-ep-coursera/fullstack-course4
+
+CMD promt:
+CD
+CD ..
+DIR
+MKDIR
+
+GIT
+CLONE
+STATUS
+CHECKOUT
+ADD .
+commit -m"text"
+push pull
+
+SUBLIME TEXT
+"html" ctrl + space -> html template
+
+BROWSER SYNC
+browser-sync start --server --directory --files "*"
+
+TO ASK QUESTION:
+STACKOVERFLOW
+JSFIDDLE.NET
+CODEPEN.IO
+CSS-TRICKS.COM
+
+TECHNO RESSOURCES/browsers
+W3.ORG
+CANIUSE.ORG
+VALIDATOR.W3.ORG check your url or html file is valid/browser
+
+HTML tips:
+
+To put a comment
+<!--<      <-->
+
+
