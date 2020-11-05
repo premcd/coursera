@@ -3,11 +3,55 @@
 <head>
 	<title>Hello there I am your friend :) </title>
 <style>
+	body {font-size: 110%;
+		margin:0;
+		padding:0;
+		background-color: #A85EFC;}
+	* {box-sizing:border-box;}
+	#content{background-color: #90EE90; //green;
+		width:120px; border:6px solid orange;}
+
+	#box{background-color: blue;
+		padding:50px 50px 10px 10px;
+		border: 3px solid red;
+		width:1000px;}
+	.cada{width:400px;
+		height:500px;
+		margin-left: auto;
+    margin-right: auto;
+		color: orange;
+		background: url('Sri Ganesha.jpg');
+		background-size: 130px 130px}
+
+	.style {font-family: Comic Sans MS, cursive, sans-serif;
+		color:#0000FF;
+		font-style:italic;
+		font-weight: bold;
+		font-size: 2em;
+		text-transform: uppercase;}
+
+
 	p {color:blue;
 		font-size: 20px;
 		width: 1000px;
 		text-align: center;
-		background-color: yellow}
+		background-color: yellow;
+		}
+	/*adapting width to device- ideal with layout grids*/
+	@media(max-width:600px) {
+		p{width:200px;}}
+
+	}
+
+	#floating p{margin: 2px 0px 2px 0px;/*works because horiz=*/
+		border:solid black;/*works thanks to border box*/
+		float: right;
+		padding:20px;}
+	#p1{background-color: #DEB887;width: 50%;}
+	#p2{background-color: #A52A2A;width: 50%;}
+	#p3{background-color: #5F9EA0;width: 50%;}
+	#p4{background-color: #FF7F50;width: 50%;}
+	section {clear:both;}
 
 	.abra{color:green;
 		font-size: 20px;
@@ -15,24 +59,42 @@
 		background-color: pink;}
 
 	#section1{color:orange;}
-
-}</style>
+	header li{list-style: none;}
+	header a:link, header a:visited {text-decoration: none;
+		background-color: yellow;
+		border:2px solid green;
+		color: BROWN;
+		display:block;
+		width:300px;
+		margin-bottom: 2px; text-align: center;
+				margin-left: auto;
+    margin-right: auto;
+		}
+	header a:hover, header a:active{background-color: purple;
+		color:pink;}
+	section li:nth-child(2){background-color: GREEN;}
+	section li:nth-child(2):hover{cursor:pointer; background-color: PURPLE; color:PINK;}
+</style>
 
 </head>
 <body>
-	<section id="top">this is the list of contents
-	<li><a href="#section1">GREETINGS</a></li>
-	<li><a href="#section2">list of nains</a></li>
-	<li><a href="#section3">surprise page of the same site</a></li>
-	<li><a href="#section4">DANCE PAGE</a></li>
-	</section>
+	<header id="top">this is the list of contents
+		<ul>
+			<li><a href="#section1">GREETINGS</a></li>
+			<li><a href="#section2">list of nains</a></li>
+			<li><a href="#section3">surprise page of the same site</a></li>
+			<li><a href="#section4">DANCE PAGE</a></li>
+			</header>
+		</ul>
 
-	<!--<  this is a test this is a test this is a test COMMENT what the?    < -->
-
+	<!--  this is a test this is a test this is a test COMMENT what the?  -->
+	<div class="cada">abracadra</div>
 	<section id=section1>
 <h1>Hello there I am your friend or no?</h1>
 <h2>You can answer me, you know</h2>
-<P>C'est l'une des plus anciennes danses indiennes. Mélange de danse classique et d'art martial à la base, elle était liée aux pratiques religieuses dès son origine. Avec le temps, elle fut interdite sous la domination anglaise, mais autorisée dans les comptoirs français de Pondichéry (Sud du pays).
+<p class=style>
+
+(TEST STYLING) C'est l'une des plus anciennes danses indiennes. Mélange de danse classique et d'art martial à la base, elle était liée aux pratiques religieuses dès son origine. Avec le temps, elle fut interdite sous la domination anglaise, mais autorisée dans les comptoirs français de Pondichéry (Sud du pays).
 <div class=abra>
 <img src="leela samson.jpg" width="200px" height="300px"> dear dancer </img>
 </div>
@@ -54,6 +116,16 @@ C'est l'une des plus anciennes danses indiennes. Mélange de danse classique et 
 La pratique de la danse a souffert au xixe siècle d'une dévalorisation de cet art par les colonisateurs anglais. La tradition a été sauvée puis renouvelée au cours du xxe siècle, notamment après l'indépendance.
 
 Il existe différents styles de bharata Natyam. Le bharata natyam est souvent une danse de soliste dont l'apprentissage est très difficile et très long. Souvent enseignée aujourd'hui aux jeunes filles, elle est restée ouverte aux garçons.</P>
+<div id="box">“We've arranged a global civilization in which most crucial elements profoundly depend on science and technology. We have also arranged things so that almost no one understands science and technology. This is a prescription for disaster. We might get away with it for a while, but sooner or later this combustible mixture of ignorance and power is going to blow up in our faces.” 
+	<div id="content">OH YEAH HE IS RIGHT</div>
+</div>
+<div id=floating>
+	<p id="p1">hahaeeeeeeeeee eeeeeeee eeee eeeee eeeeeeeeeeeeee eeeeeeeeeeeeeeeeeeeeeee eeeeeeeeeee eeeeeeeee eeeeeeeeeeeeeeeeeee</p>
+	<p id="p2">hihi444444444 44444444 44444444444444444 44444444444 44444444 4444444 44444 4444444 44444444444 4444444444444444444 44444444444444 4444444444 444444  44444444444444444444444444 444444444 44444444444 4444444444 44444444444444 44444444444 44444 444 44444444 44444444444</p>
+	<p id="p3">hoho</p>
+	<p id="p4">huhu</p>
+</div>
+
 </section>
 <section id=section2><div>JE SUIS TROP CONTENTE</div><span>voila un petit span</span><span>puis un autre a cote</span>
 <ol>

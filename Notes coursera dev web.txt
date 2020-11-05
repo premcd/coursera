@@ -1,3 +1,6 @@
+https://learngitbranching.js.org/?locale=fr_FR
+
+
 https://github.com/jhu-ep-coursera/fullstack-course4
 
 CMD promt:
@@ -16,6 +19,7 @@ push pull
 
 SUBLIME TEXT
 "html" ctrl + space -> html template
+ctrl+/ -> to comment a line
 
 BROWSER SYNC
 browser-sync start --server --directory --files "*"
@@ -35,5 +39,17 @@ HTML tips:
 
 To put a comment
 <!--<      <-->
+
+List of FONTS
+https://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+CANIUSE.COM
+
+DONT ZOOM DEVICE META TAG:
+<meta name="viewport" content="width=devide-width, initial-scale=1">
+
+DECLARE STYLESHEET OUTSIDE:
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
 
 
