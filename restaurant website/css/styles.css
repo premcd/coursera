@@ -1,0 +1,10 @@
+body {
+	background-color: #7B68EE;
+}
+
+.navbar{
+	background-color: white;
+	height:120px;
+	border-radius: 0px;
+	border:0;
+}
